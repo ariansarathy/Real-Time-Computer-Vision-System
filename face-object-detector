@@ -1,0 +1,10 @@
+real-time-cv-system/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── main.py
+├── requirements.txt
+├── setup.py           (Optional)
+└── models/            (Created automatically)
+    ├── MobileNetSSD_deploy.prototxt
+    └── MobileNetSSD_deploy.caffemodel
