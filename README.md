@@ -1,17 +1,16 @@
-## Real-Time Multi-Modal Computer Vision System
-
-A production-ready real-time computer vision pipeline that integrates **MediaPipe Face Detection** and **MobileNet SSD Object Detection** using OpenCV. This system performs simultaneous face and object detection with sub-50ms inference times, customizable detection modes, and comprehensive performance monitoring.
-
 # Real-Time Computer Vision System
 
 Real-time face and object detection system using OpenCV and MediaPipe.
 
-**Key Features:**
-- **Dual-Model Architecture**: Parallel processing with MediaPipe (faces) and MobileNet SSD (80 object classes)
-- **Real-Time Performance**: Optimized for 30+ FPS processing on standard hardware
-- **Multiple Detection Modes**: Toggle between face-only, object-only, or combined detection
-- **Comprehensive Visualization**: Color-coded bounding boxes, confidence scores, and real-time statistics
-- **Model Auto-Download**: Automatic retrieval of pre-trained models on first run
+## ✨ Features
+- **Real-time face detection** using MediaPipe's optimized models
+- **Real-time object detection** with MobileNet SSD (80+ object classes)
+- **Multiple detection modes**: Face-only, object-only, or both simultaneously
+- **Performance statistics**: Real-time FPS, processing time, detection counts
+- **Screenshot capture**: Save detection results with timestamp
+- **Cross-platform compatibility**: Works on Windows, macOS, and Linux
+- **CUDA acceleration**: GPU support for faster processing
+- **Clean visualization**: Professional UI with stats overlay
 
 **Technical Highlights:**
 - MediaPipe's BlazeFace for high-speed face detection
@@ -19,3 +18,22 @@ Real-time face and object detection system using OpenCV and MediaPipe.
 - CUDA acceleration support for GPU-enabled systems
 - Command-line interface with configurable parameters
 - Performance analytics and screenshot capabilities
+
+
+## 📦 Installation
+
+### Prerequisites
+- Python 3.7 or higher
+- Webcam or camera source
+
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/real-time-cv-system.git
+cd real-time-cv-system
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python main.py
