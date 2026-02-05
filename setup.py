@@ -7,12 +7,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="real-time-cv-system",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Arian Sarathy",
+    author_email="arian.sarathy@gmail.com",
     description="Real-time face and object detection system",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/real-time-cv-system",
+    url="https://github.com/ariansarathy/Real-Time-Computer-Vision-System",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
