@@ -29,7 +29,7 @@ Real-time face and object detection system using OpenCV and MediaPipe.
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://[github.com/yourusername/real-time-cv-system.git](https://github.com/ariansarathy/real-time-cv-system.git)
+git clone https://github.com/ariansarathy/real-time-cv-system.git
 cd real-time-cv-system
 
 # Install dependencies
