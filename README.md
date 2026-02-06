@@ -24,7 +24,7 @@ Real-time face and object detection system using OpenCV and MediaPipe.
 
 ### Prerequisites
 - Python 3.7 or higher
-- Webcam or camera source
+- Webcam or Camera source
 
 ### Quick Start
 ```bash
