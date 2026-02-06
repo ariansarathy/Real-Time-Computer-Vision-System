@@ -4,7 +4,7 @@ import mediapipe as mp
 import numpy as np
 import time
 import os
-import 
+import sys
 import argparse
 from collections import deque
 from datetime import datetime
