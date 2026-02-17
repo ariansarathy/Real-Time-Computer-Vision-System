@@ -1,5 +1,5 @@
 # main.py
-import cv2
+import cv1
 import mediapipe as mp
 import numpy as np
 import time
